@@ -4,12 +4,12 @@ import { getAuth, GoogleAuthProvider, signInWithPopup, signOut, onAuthStateChang
 
 // Your Firebase config here:
 const firebaseConfig = {
-  apiKey: "AIzaSyAfVPCSvTr8FHsRd10QtiwrBe5HC-bDg4o",
-  authDomain: "maps-e3724.firebaseapp.com",
-  projectId: "maps-e3724",
-  storageBucket: "maps-e3724.firebasestorage.app",
-  messagingSenderId: "455885472603",
-  appId: "1:455885472603:web:2a7ca56ec522476adad07e"
+  apiKey: "YOUR_API_KEY",
+  authDomain: "your-app.firebaseapp.com",
+  projectId: "your-project-id",
+  storageBucket: "your-app.appspot.com",
+  messagingSenderId: "your-sender-id",
+  appId: "your-app-id"
 };
 
 const app = initializeApp(firebaseConfig);
