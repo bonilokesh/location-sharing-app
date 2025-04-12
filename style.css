@@ -1,0 +1,36 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+#map {
+  height: 100vh;
+  width: 100%;
+}
+
+#controls {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+#controls button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  background-color: #1976d2;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#user-name {
+  color: white;
+  margin-top: 10px;
+}
